@@ -1,0 +1,26 @@
+{   
+    "chat.commandCenter.enabled": false,
+    "workbench.colorTheme": "One Dark Pro Night Flat",
+    "editor.fontFamily": "'JetBrains Mono', 'Roboto Mono',  monospace",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 20,
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.activityBar.location": "bottom",
+    "workbench.iconTheme": "helium-icon-theme",
+    "window.commandCenter": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "editor.stickyScroll.enabled": false,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.smoothScrolling": true,
+    "editor.cursorStyle": "block",
+    "workbench.statusBar.visible": false, 
+    "vscode_custom_css.imports": [
+        
+    ],
+} 

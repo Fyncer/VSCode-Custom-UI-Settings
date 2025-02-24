@@ -1,0 +1,66 @@
+/*
+
+To Install (NECESSARY)
+- "JetBrains Mono" font
+- "One Dark Pro Night Flat" theme 
+- "Custom CSS and JS Loader" extension
+
+To Do:
+- Place the file path for the css code inside "vscode_custom_css.imports: [ ]" in settings.json 
+- Add "file:///" before the relative path
+- Run "Enable Custom CSS and JS" in the command palatte
+- For every changes in this CSS, run "Reload Custom CSS and JS" to apply their effects
+
+*/
+
+
+/* Change font family and size entire window */
+.windows {
+    font-family: 'JetBrains Mono', 'Consolas', 'Courier New', monospace;
+    font-size: 9pt !important;
+    font-weight: 300 !important; 
+}
+
+/* Set explorer font sizes */
+.monaco-icon-label>.monaco-icon-label-container>.monaco-icon-name-container>.label-name {
+    font-size: 9pt !important;
+}
+
+/* Remove slider background | Remove terminal slider background / outline */
+.decorationsOverviewRuler, .xterm-decoration-overview-ruler  {
+    opacity: 0;
+}
+
+/* Adjust slider itself */
+.slider {
+    width: 5px !important;
+    border-radius: 10px;
+    background-color: rgb(55, 57, 61) !important;
+}
+
+/* Adjust ribbon size */ 
+.monaco-workbench .part.editor>.content .editor-group-container>.title { 
+    padding: 25px 23px !important;
+}
+
+/* Active tabs */
+.monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active { 
+    background: transparent !important;
+    --tab-border-bottom-color: transparent !important;
+}
+
+/* Modify shadow between tabs and editor */
+.monaco-editor .scroll-decoration { 
+    height: 0 !important;
+    box-shadow: 0 0 25px 15px rgb(21, 21, 21, 0.7);
+}
+
+/* Change remote window button (status bar, leftmost button) color to gray */
+.monaco-workbench .part.statusbar>.items-container>.statusbar-item.remote-kind {
+    background-color: rgb(55, 57, 61);
+}
+
+/* Modify window icon (top-left most icon) */
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-left>.window-appicon:not(.codicon) {
+    filter: grayscale(1);
+}
