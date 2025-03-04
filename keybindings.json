@@ -21,8 +21,4 @@
         "command": "explorer.newFile",
         "when": "!editorFocus"
     },
-    {
-        "key": "ctrl+2",
-        "command": "-workbench.action.focusSecondEditorGroup"
-    }
 ]
