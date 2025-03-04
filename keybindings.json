@@ -1,0 +1,28 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+alt+s b",
+        "command": "workbench.action.toggleStatusbarVisibility"
+    },
+    {
+        "key": "ctrl+shift+k t",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "ctrl+alt+k t",
+        "command": "workbench.action.terminal.killAll"
+    },
+    {
+        "key": "ctrl+f ctrl+d",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+n ctrl+f",
+        "command": "explorer.newFile",
+        "when": "!editorFocus"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "-workbench.action.focusSecondEditorGroup"
+    }
+]
